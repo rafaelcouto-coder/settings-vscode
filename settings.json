@@ -1,0 +1,51 @@
+{
+    "terminal.integrated.fontSize": 14,
+      
+    "editor.tabSize": 2,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shellArgs.windows": ["-nologo"],
+
+    "tabnine.experimentalAutoImports": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "timeline.excludeSources": [],
+    "git.enableSmartCommit": true,
+    "editor.minimap.enabled": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.autoSave": "onWindowChange",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Omni"
+}
