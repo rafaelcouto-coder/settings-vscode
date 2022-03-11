@@ -1,27 +1,22 @@
 {
-    "terminal.integrated.fontSize": 14,
-      
+    "terminal.integrated.fontSize": 14, 
     "editor.tabSize": 2,
     "editor.fontSize": 14,
     "editor.lineHeight": 22,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "terminal.integrated.shellArgs.windows": ["-nologo"],
+    "workbench.iconTheme": "material-icon-theme",
 
     "tabnine.experimentalAutoImports": true,
-    "workbench.iconTheme": "material-icon-theme",
     "liveServer.settings.donotShowInfoMsg": true,
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.html-language-features"
     },
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "explorer.confirmDelete": false,
     "explorer.compactFolders": false,
     "editor.suggestSelection": "first",
@@ -35,17 +30,21 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "files.autoSave": "onWindowChange",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+    // "files.autoSave": "onWindowChange",
     "explorer.confirmDragAndDrop": false,
     "gitlens.hovers.currentLine.over": "line",
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+    "workbench.colorTheme": "Omni",
+    "git.confirmSync": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
     },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "material-icon-theme.folders.color": "#F25350",
+    "material-icon-theme.folders.associations": {
+ 
     },
-    "workbench.colorTheme": "Omni"
+    "codesnap.transparentBackground": false,
+    "codesnap.containerPadding": "0px",
+    "bracketPairColorizer.depreciation-notice": false
 }
